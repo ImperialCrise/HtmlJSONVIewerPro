@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JSON viewing and editing</title>
+    <link href="https://rawgit.com/summerstyle/jsonTreeViewer/master/libs/jsonTree/jsonTree.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="jsonEditor">
+        <h1>JSON viewing and editing</h1>
+        <label for="jsonInput">Enter the JSON encoded text :</label>
+        <textarea id="jsonInput" rows="5"></textarea>
+        <button id="displayButton">Display JSON tree</button>
+
+        <label style="margin-top:5px;"for="decodedJsonInput">JSON decoded :</label>
+        <textarea id="decodedJsonInput" rows="20" readonly></textarea>
+        <div id="jsonTree"></div>
+        <button id="exportButton">Export encoded JSON</button>
+    </div>
+
+    <script src="https://rawgit.com/summerstyle/jsonTreeViewer/master/libs/jsonTree/jsonTree.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
