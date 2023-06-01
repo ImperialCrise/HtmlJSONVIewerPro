@@ -1,0 +1,5 @@
+HtmlJSONViewerPRO is a browser extension that provides a convenient way to view JSON data with HTML special characters directly within your browser. With this extension, you can easily visualize JSON content that includes HTML entities or special characters.
+
+The extension allows you to interact with the JSON data by editing it directly within the viewer. You can make modifications, add new values, or remove existing ones, all while maintaining the integrity of the HTML special characters. Once you have made the desired changes, HtmlJSONViewerPRO enables you to export the modified JSON, including the HTML special characters, in its original format.
+
+Whether you're working with JSON data that contains encoded HTML characters or you simply prefer to view JSON content with HTML entities, HtmlJSONViewerPRO offers a user-friendly solution. By providing a seamless browsing experience, it simplifies the process of handling JSON data with HTML special characters.
